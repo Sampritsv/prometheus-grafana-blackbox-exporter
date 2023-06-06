@@ -15,7 +15,7 @@ if ! type "git" > /dev/null; then
   apt-get -y install git
 fi
 
-DIRECTORY="prometheus-grafana-alertmanager-example"
+DIRECTORY="prometheus-grafana-blackbox-exporter"
 if [ -d "$DIRECTORY" ]; then
   rm -rf "$DIRECTORY"
 fi
